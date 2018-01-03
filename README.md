@@ -13,3 +13,9 @@ Example:
     "message": "The user was not found."
 }
 ````
+
+## Recommended NPM Packages
+
+* Lab (Test Runner)
+* Code (Assertions)
+* Hapi (HTTP Server)
