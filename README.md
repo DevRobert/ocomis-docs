@@ -16,6 +16,23 @@ Example:
 
 ## Recommended NPM Packages
 
-* Lab (Test Runner)
-* Code (Assertions)
-* Hapi (HTTP Server)
+### Testing and Quality Assurance
+
+* lab (test runner)
+* code (assertions)
+* eslint (style checks)
+
+### Webserver/ Application
+
+* hapi (HTTP server)
+* react (view)
+* redux (state management)
+
+### Deployment
+
+* babel (transpiling)
+* webpack (bundle sources for deployment)
+
+### Miscellaneous
+
+* pino (logging)
