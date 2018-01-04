@@ -8,9 +8,34 @@ All microservices must support the following environments:
 
 1) `development`: Local development including local unit tests
 2) `integration`: Isolated testing of a microservice, initiated by the CI Sever; the term "integration" refers to the integration of the code changes by multiple devleopers
-3) `testing`: Human and automated testing of the whole system consisting of multiple microservices.
+3) `testing`: Human and automated testing of the whole system consisting of multiple microservices
 4) `staging`: Final testing of the whole system consisting of multiple microservices before releasing it to production
 5) `production`: Live software used by the end users
+
+### Database
+
+* Docker container/ connect from docker host
+    * `development`
+    * `integration`
+* Docker container/ inside docker compose
+    * `testing`
+* Managed service
+    * `staging`
+    * `production`
+
+### Logging
+
+* None
+    * `integration`
+* Docker compose ELK/ connect from docker host; or none
+    * `development`
+* Docker compose ELK/ inside docker compose
+    * `testing`
+* Managed service
+    * `staging`
+    * `production`
+
+
 
 ## API Service Errors
 
