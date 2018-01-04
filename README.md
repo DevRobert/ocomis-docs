@@ -6,9 +6,9 @@
 
 All microservices must support the following environments:
 
-1) `development`: Local development including local unit tests
-2) `integration`: Isolated testing of a microservice, initiated by the CI Sever; the term "integration" refers to the integration of the code changes by multiple devleopers
-3) `testing`: Human and automated testing of the whole system consisting of multiple microservices
+1) `development`: Local development of one miroservice including local unit tests for the microservice
+2) `integration`: Isolated testing of one microservice, initiated by the CI Sever; the term "integration" refers to the integration of code changes by multiple developers
+3) `testing`: Human and automated testing of the whole system consisting of multiple microservices; the focus lies on deployed environments for testers but it can also be used for a local deployment of the whole system on the developer machine
 4) `staging`: Final testing of the whole system consisting of multiple microservices before releasing it to production
 5) `production`: Live software used by the end users
 
